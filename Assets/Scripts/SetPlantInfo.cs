@@ -10,18 +10,6 @@ public class SetPlantInfo : MonoBehaviour
     public Text plantName;
     public Text threatLevel;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OpenPlantPanel()
     {
         plantInfoPanel.SetActive(true);

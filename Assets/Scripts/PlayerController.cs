@@ -41,7 +41,16 @@ public class PlayerController : MonoBehaviour {
             animator.SetTrigger("isDead");
             this.enabled = false;
         }
+    }
 
-
+    void OnTriggerEnter(Collider collider)
+    {
+        var plant = collider.gameObject.GetComponent<Plant>();
+        var plantInfo = plant.GetInfo();
+        if (plantInfo.GetPlantThreat().ToString() == "High")
+        {
+            dead = true;
+        }
+       
     }
 }

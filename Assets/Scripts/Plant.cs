@@ -13,6 +13,11 @@ public class Plant : MonoBehaviour
         spi = GameObject.FindWithTag("PlantInfo").GetComponent<SetPlantInfo>();
     }
 
+    public PlantData GetInfo()
+    {
+        return info;
+    }
+
     void OnMouseDown()
     {
         spi.OpenPlantPanel();
