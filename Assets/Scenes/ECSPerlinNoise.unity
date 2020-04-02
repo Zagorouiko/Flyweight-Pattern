@@ -146,12 +146,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 375288198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb1c866d3ead4dd4e8403c7c22c615ba, type: 3}
+  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 2150864766395200515, guid: 794b60b78709e3b48b4eb8313b05dbc9, type: 3}
-  rows: 1000
-  columns: 1000
+  ConversionMode: 0
 --- !u!4 &375288200
 Transform:
   m_ObjectHideFlags: 0
